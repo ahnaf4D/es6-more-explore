@@ -1,0 +1,12 @@
+const numbers = [12, 10, 8, 15, 7];
+const doubled = numbers.map(num => num * 2);
+console.log(doubled);
+const fiveBonus = numbers.map(num => num + 5);
+console.log(fiveBonus);
+const half = numbers.map(num => num / 2);
+console.log(half);
+const freinds = ['Tom','John','Oliver', 'Saimon'];
+const lengths = freinds.map(friend => friend.length);
+console.log(lengths);
+const firstLetter = freinds.map(friend => friend[0]);
+console.log(firstLetter);
